@@ -1,58 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mert Irez – Welcome to my personal website!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal website and portfolio of [Your Name].">
+  <title> Mert Irez - My Portfolio</title>
   <style>
     body {
-      font-family: roboto;
-      padding: 2rem;
+      font-family: Arial, sans-serif;
       max-width: 800px;
-      margin: auto;
+      margin: 0 auto;
+      padding: 20px;
       line-height: 1.6;
     }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
     h1 {
-      color: #333;
+      margin-bottom: 0;
+    }
+    h2 {
+      margin-top: 40px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
     }
     a {
-      color: #007acc;
+      color: #0366d6;
       text-decoration: none;
     }
     a:hover {
       text-decoration: underline;
     }
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #777;
+    }
   </style>
 </head>
 <body>
-  <h1>Mert Irez</h1>
-  <p> Welcome to my personal website! <br />
-  Hi, I’m Mert — an Electronics Engineer based in Germany with a Master’s degree in Information Technologies.<br /> 
-  After gaining hands-on experience as a software developer, I transitioned into a Product Owner role. <br />
-  I like to call my approach “Delivery Engineering” because it encompasses the full engineering lifecycle — from 
-  defining clear requirements to ensuring successful product deployments. I’m passionate about bridging technical 
-  excellence with strategic delivery to create impactful solutions. <br />
-  
-  I am impact-oriented Product Owner with 6+ years’experience driving software and hardware solutions in Internet 
-  of Things and e-commerce sectors. I possess strong expertise in Agile methodologies, backlog refinement, and MVP 
-  delivery, consistently maximizing product value and user satisfaction. I prioritize features aligned with company 
-  goals, facilitate cross-functional collaboration, and effectively manage stakeholder expectations. With a solid 
-  technical background spanning software and hardware development, I combine strategic thinking with disciplined execution. 
-  I am skilled at guiding product roadmaps, defining KPIs, and fostering alignment across teams and leadership. </p>
-  
-  <h2>📄 Resume</h2>
+
+  <header>
+    <h1> Mert Irez</h1>
+    <p>Welcome to my personal website and portfolio</p>
+  </header>
+
+  <h2>👨‍💻 About Me</h2>
   <p>
-    View my experience on 
-    <a href="https://www.linkedin.com/in/erenmertirez/" target="_blank">LinkedIn</a>
+   Hi, I’m Mert — an Electronics Engineer based in Germany with a Master’s degree in Information Technologies.<br /> 
+   After gaining hands-on experience as a software developer, I transitioned into a Product Owner role. <br />
+   I like to call my approach “Delivery Engineering” because it encompasses the full engineering lifecycle — from 
+   defining clear requirements to ensuring successful product deployments. I’m passionate about bridging technical 
+   excellence with strategic delivery to create impactful solutions. <br />
+  
+   I am impact-oriented Product Owner with 6+ years’experience driving software and hardware solutions in Internet 
+   of Things and e-commerce sectors. I possess strong expertise in Agile methodologies, backlog refinement, and MVP 
+   delivery, consistently maximizing product value and user satisfaction. I prioritize features aligned with company 
+   goals, facilitate cross-functional collaboration, and effectively manage stakeholder expectations. With a solid 
+   technical background spanning software and hardware development, I combine strategic thinking with disciplined execution. 
+   I am skilled at guiding product roadmaps, defining KPIs, and fostering alignment across teams and leadership.
   </p>
 
-  <h2>💼 Portfolio</h2>
-  <ul>
-    <li><strong>Project 1:</strong> Under Construction</li>
-  </ul>
-
-  <h2>📝 Blog</h2>
-  <p>From time to time, I share ideas or articles <a href="#">here</a>.</p>
+  <h2>📄 Resume</h2>
+  <p>
+    View my full professional experience on 
+    <a href="https://www.linkedin.com/in/erenmertirez/" target="_blank">LinkedIn</a>.
+  </p>
   
   <h2>💼 Awards</h2>
   <p>
@@ -60,8 +75,30 @@
   <strong>VDE Best Thesis Prize 2017</strong> for my work on automating microstructure performance analysis using image processing. <br />
   <a href="https://www.etu.edu.tr/en/bolum/electrical-and-electronics-engineering/haber/eren-mert-irez-a-graduate-of-the-department-of-electrical-and-electronic-engineering-of-tobb-etu-was-awarded-a-prize-by-germany-based-vde" target="_blank" rel="noopener">Read more about the award</a>.
   </p>
-  
+
+  <h2>📝 Blog</h2>
+  <p>
+    Coming soon – I'll be posting articles and thoughts on technology, personal projects, and more.
+  </p>
+
   <h2>📬 Contact</h2>
-  <p>Reach me via <a href="https://www.linkedin.com/in/erenmertirez/" target="_blank">LinkedIn</a></p>
+  <p>
+    You can reach me via email:
+    <script>
+      // Obfuscated email to reduce spam
+      document.write('<a href="mailto:' + 'erenmertirez' + '@' + 'gmail.com' + '">');
+      document.write('erenmertirez [at] gmail.com</a>');
+    </script>
+  </p>
+
+  <footer>
+    &copy; <span id="year"></span> Mert Irez. All rights reserved.
+  </footer>
+
+  <script>
+    // Auto-update the year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
 </body>
 </html>
