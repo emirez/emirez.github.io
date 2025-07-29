@@ -6,6 +6,9 @@
 .DS_Store
 Thumbs.db
 
+# Ignore IntelliJ IDEA workspace settings
+.idea/workspace.xml
+
 # Temporary or backup files
 *.tmp
 *.bak
