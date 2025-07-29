@@ -1,5 +1,41 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Environment-dependent path to Maven home directory
-/mavenHomeManager.xml
+# ============================
+# GitHub Pages Website .gitignore
+# ============================
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary or backup files
+*.tmp
+*.bak
+*.swp
+*.log
+
+# Build or cache folders (if you use build tools later)
+node_modules/
+dist/
+.cache/
+out/
+
+# Environment files (never commit secrets!)
+*.env
+*.env.*
+
+# IDE project settings
+.idea/
+!.idea/codeStyles/      # Keep code styles if you want
+.idea/workspace.xml     # Ignore workspace (local UI layout)
+.idea/tasks.xml
+.idea/dictionaries/
+*.iml
+.vscode/
+
+# Other unwanted files
+*.zip
+*.tar
+*.gz
+
+# Drafts or private files
+drafts/
+private/
