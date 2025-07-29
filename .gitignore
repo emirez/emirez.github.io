@@ -6,9 +6,6 @@
 .DS_Store
 Thumbs.db
 
-# Ignore IntelliJ IDEA workspace settings
-.idea/workspace.xml
-
 # Temporary or backup files
 *.tmp
 *.bak
@@ -27,8 +24,12 @@ out/
 
 # IDE project settings
 .idea/
-.vscode/
+!.idea/codeStyles/      # Keep code styles if you want
+.idea/workspace.xml     # Ignore workspace (local UI layout)
+.idea/tasks.xml
+.idea/dictionaries/
 *.iml
+.vscode/
 
 # Other unwanted files
 *.zip
