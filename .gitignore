@@ -5,30 +5,37 @@
 # OS-specific files
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 
 # Temporary or backup files
 *.tmp
 *.bak
 *.swp
 *.log
+*.temp
 
 # Build or cache folders (if you use build tools later)
 node_modules/
 dist/
 .cache/
 out/
+build/
 
 # Environment files (never commit secrets!)
 *.env
 *.env.*
 
 # IDE project settings
-.idea/
-!.idea/codeStyles/      # Keep code styles if you want
-.idea/workspace.xml     # Ignore workspace (local UI layout)
+.idea/*
+!.idea/codeStyles/       # Keep only shared code style settings
+.idea/usage.statistics.xml
+.idea/shelf
+.idea/workspace.xml      # Ignore workspace (local UI layout)
 .idea/tasks.xml
 .idea/dictionaries/
 *.iml
+
 .vscode/
 
 # Other unwanted files
@@ -39,3 +46,13 @@ out/
 # Drafts or private files
 drafts/
 private/
+
+# IntelliJ crash logs
+hs_err_pid*
+
+# Netlify or deployment-specific
+.netlify/
+
+# Ignore system-wide trash folders
+$RECYCLE.BIN/
+.Trash-*/
